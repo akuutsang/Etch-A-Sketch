@@ -1,3 +1,6 @@
+let color = "black";
+
+
 function styleBoard(size){
     let board = document.querySelector(".board");
     let squares = board.querySelectorAll("div");
@@ -14,11 +17,17 @@ function styleBoard(size){
 }
 styleBoard(16);
 
+
 function changeSize(input){
     if (input >= 2 || input <= 100){
         styleBoard(input);
     } else{
         console.log("too many squares")
-    }
-   
+    } 
+}
+
+function colorSquare(){
+    square.addEventListener("mouseover", ()=> {
+        square.style.backgroundColor = color;
+    });
 }
