@@ -8,7 +8,7 @@ function styleBoard(size){
         square.addEventListener("mouseover", ()=> {
             square.style.backgroundColor = "black";
         });
-        square.style.backgroundColor = "blue"
+        square.style.backgroundColor = "white"
         board.insertAdjacentElement("beforeend", square)
     }
 }
