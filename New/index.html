@@ -11,7 +11,7 @@
     <div class="flex">  
         <div class="title">Sketch</div> 
         <div class="content">
-            <div class="grid-container"></div>
+            <div class="board"></div>
             <div class="btn">
                 <button>first</button>
                 <button>second</button>
@@ -19,7 +19,7 @@
                 <button>fourth</button>
             </div>
             <div>
-                <input type="text" placeholder="size of board" value="16">
+                <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)">
                 <button>Set size</button>
             </div>
         </div>
