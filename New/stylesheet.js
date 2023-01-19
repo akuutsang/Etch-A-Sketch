@@ -31,3 +31,8 @@ function colorSquare(){
         square.style.backgroundColor = color;
     });
 }
+
+function changeColor(choice){
+    color = choice;
+
+}
