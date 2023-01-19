@@ -1,0 +1,1 @@
+let board = document.querySelector(".grid-container");
