@@ -29,11 +29,15 @@ function colorSquare(){
     } else {
         this.style.backgroundColor = color
     }
-   
     };
 
 
 function changeColor(choice){
     color = choice;
 }
+function resetBoard(){
+    let board = document.querySelector(".board");
+    let squares = board.querySelectorAll("div");
+    squares.forEach((div) => div.style.backgroundColor = "white")
 
+}
