@@ -14,7 +14,6 @@ function styleBoard(size){
 }
 styleBoard(16);
 
-
 function changeSize(input){
     if (input >= 2 || input <= 100){
         styleBoard(input);
@@ -31,7 +30,7 @@ function colorSquare(){
     }
     };
 
-
+    
 function changeColor(choice){
     color = choice;
 }
